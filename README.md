@@ -1,4 +1,4 @@
-# Sam <img width="21px" style="margin-bottom:-0px" src="https://zanca.dev/favicon.png"/>anca
+# Sam <img width="20px" style="margin-bottom:-0px" src="https://zanca.dev/favicon.png"/>anca
 
 `Software Craftsman`
 
