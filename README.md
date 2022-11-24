@@ -1,7 +1,5 @@
 # Sam <img width="20px" style="margin-bottom:-0px" src="https://zanca.dev/favicon.png"/>anca
 
-`Software Craftsman`
-
 Hey, I'm Sam and I'm a Full-Stack Developer. I wrote my first line of code at age 14 and have been loving it ever since. I mostly build for the web, which is the most accessible and flexible platform. I enjoy building both sleek _User Experiences_ and productive _Developer Experiences_.
 
 I'm very focussed on growth, **always learning** and **always sharing** what I learn. I don't expect to become a world-renowned Developer or package maintainer (_any time soon at least_) but I would like to be a source of _Knowledge_ and _Experience_ that my Team can pull from. I'm also very interested in learning to become a Team Lead.
