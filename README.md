@@ -51,6 +51,14 @@ I'm an avid user of all 3 main operating systems. Theres no best OS, they all ha
 
 <br>
 
+### 🛠️ Development Philosophies
+
+- [Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/)
+- [Simplicity, Please](https://www.infoq.com/articles/simplicity-manifesto-development/)
+- [Agile](https://agilemanifesto.org/)
+
+
+<br>
 
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 <img src="https://github-readme-stats.vercel.app/api?username=metruzanca&show_icons=true"/>
