@@ -37,8 +37,6 @@ I'm very focussed on growth, **always learning** and **always sharing** what I l
 <img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" />
 <!-- Note, the last icon needs to have no alignment set -->
 
-<br>
-
 _For side projects, my goto stack has been: svelte, tailwind & prisma._
 
 <br>
