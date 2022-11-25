@@ -63,6 +63,13 @@ I'm an avid user of all 3 main operating systems. Theres no best OS, they all ha
 
 <br>
 
+<!-- ### 🎧 Music
+
+I enjoy a lot of music, metal when doing busy work and synthwave/chillwave when I need to focus
+
+https://www.last.fm/user/metruzanca -->
+
+
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 <img src="https://github-readme-stats.vercel.app/api?username=metruzanca&show_icons=true"/>
 
