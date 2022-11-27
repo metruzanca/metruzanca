@@ -77,7 +77,7 @@ _Maybe I'll add my latests posts to my readme once I start posting again. 🤔_
 
 ### 🎧 Music
 
-I listen to a lot of music while working, heres what I'm currently listening to.\
+I listen to a lot of music, heres what I'm currently listening to.\
 
 (_It's probably Metal or Synthwave_)
 
