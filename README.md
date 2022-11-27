@@ -12,8 +12,9 @@ I'm very focussed on growth, **always learning** and **always sharing** what I l
 <!-- https://github.com/DenverCoder1/custom-icon-badges -->
 
 [<img src="https://custom-icon-badges.demolab.com/badge/-samuele@zanca.dev-875cff?style=for-the-badge&logo=mention&logoColor=white">](mailto:samuele@zanca.dev)
-[<img src="https://custom-icon-badges.demolab.com/badge/-Schedule a Quick Meeting-f7e13a?style=for-the-badge&logo=calendar&logoColor=black">](https://cal.com/samzanca/15min)
 [<img src="https://custom-icon-badges.demolab.com/badge/Hoboken, NJ-USA-875cff?style=for-the-badge&logo=location&logoColor=white">](https://www.google.com/maps/place/Hoboken,+NJ/)
+[<img src="https://custom-icon-badges.demolab.com/badge/-Resume-875cff?style=for-the-badge&logo=download&logoColor=white">](https://github.com/metruzanca/metruzanca/blob/master/resumes/2022-11-24/resume_samuele-zanca_2022-11-24.pdf)
+[<img src="https://custom-icon-badges.demolab.com/badge/-Schedule a Quick Meeting-f7e13a?style=for-the-badge&logo=calendar&logoColor=black">](https://cal.com/samzanca/15min)
 
 ---
 
@@ -63,9 +64,22 @@ I'm an avid user of all 3 main operating systems. Theres no best OS, they all ha
 
 <br>
 
+### ✒️ Blog
+I have an, often neglected, [Developer Blog](https://zanca.dev/) which I hope to post to more this year.
+
+_Maybe I'll add my latests posts to my readme once I start posting again. 🤔_
+
+<br>
+
+---
+
+<br>
+
 ### 🎧 Music
 
-I enjoy a lot of music, metal when doing busy work and synthwave/chillwave when I need to focus.
+I listen to a lot of music while working, heres what I'm currently listening to.\
+
+(_It's probably Metal or Synthwave_)
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=metruzanca&cover_image=true&theme=default&show_offline=false&background_color=121212&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=metruzanca&redirect=true)
 
@@ -73,16 +87,5 @@ I enjoy a lot of music, metal when doing busy work and synthwave/chillwave when 
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 <!-- <img src="https://github-readme-stats.vercel.app/api?username=metruzanca&show_icons=true"/> -->
 
-### ✒️ Blog
-I have an, often neglected, [Developer Blog](https://zanca.dev/) which I hope to post to more this year.
-
-_Maybe I'll add my latests posts to my readme once I start posting again. 🤔_
-
 
 <!-- <img src="https://profile-counter.glitch.me/metruzanca/count.svg"> -->
-
-<details>
-  <summary>Resume</summary>
-  <i>Click for pdf version (cannot embed pdfs in github profile readme</i>
-  <a href="https://github.com/metruzanca/metruzanca/blob/master/resumes/2022-11-24/resume_samuele-zanca_2022-11-24.pdf"><img src="./resumes/2022-11-24/resume_samuele-zanca_2022-11-24-1.png"></a>
-</details>
