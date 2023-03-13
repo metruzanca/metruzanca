@@ -13,7 +13,7 @@ I'm very focussed on growth, **always learning** and **always sharing** what I l
 
 [<img src="https://custom-icon-badges.demolab.com/badge/-samuele@zanca.dev-875cff?style=for-the-badge&logo=mention&logoColor=white">](mailto:samuele@zanca.dev)
 [<img src="https://custom-icon-badges.demolab.com/badge/Hoboken, NJ-USA-875cff?style=for-the-badge&logo=location&logoColor=white">](https://www.google.com/maps/place/Hoboken,+NJ/)
-[<img src="https://custom-icon-badges.demolab.com/badge/-Resume-875cff?style=for-the-badge&logo=download&logoColor=white">](https://github.com/metruzanca/metruzanca/blob/master/resumes/latest/resume.pdf)
+[<img src="https://custom-icon-badges.demolab.com/badge/-Resume-875cff?style=for-the-badge&logo=download&logoColor=white">](https://github.com/metruzanca/metruzanca/raw/master/resumes/latest/resume_samuele-zanca.pdf)
 [<img src="https://custom-icon-badges.demolab.com/badge/-Schedule a Quick Meeting-f7e13a?style=for-the-badge&logo=calendar&logoColor=black">](https://cal.com/samzanca/15min)
 
 ---
