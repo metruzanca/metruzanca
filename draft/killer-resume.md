@@ -1,8 +1,7 @@
 ---
 draft: true
 title: "How to make a Killer Developer Resume in 2022"
-slug: killer-resume
-pubDate: "2022-05-22T19:42:28Z"
+date: "2022-05-22T19:42:28Z"
 description: ""
 tags: []
 ---

@@ -1,8 +1,7 @@
 ---
 draft: true
 title: "Backspace Case Study"
-slug: "backspace"
-pubDate: 2000-01-01T00:00:00.000Z
+date: 2000-01-01T00:00:00.000Z
 description: Lessons learned from working on backspace.to
 tags: ["startup", "javascript"]
 ---

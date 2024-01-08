@@ -1,8 +1,7 @@
 ---
 draft: true
 title: "Minimalist Git"
-slug: "minimalist-git"
-pubDate: 2000-01-01T00:00:00.000Z
+date: 2000-01-01T00:00:00.000Z
 description: The only subset of git commands that you need
 tags: ["git", "programming"]
 heroImage: '/minimalist-git.jpg'

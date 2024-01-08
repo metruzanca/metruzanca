@@ -1,10 +1,9 @@
 ---
-title: Creating a Personal Website using Gatsby.js and Netlify CMS
-slug: personal-portfolio-blog-gatsby-netlify-cms
-pubDate: 2020-12-20T20:36:56.280Z
-description: How I created my blog and portfolio website
-tags: ["react", "netlify"]
-
+title: Gatsby.js blog
+date: 2020-12-20T20:36:56.280Z
+description: How I created my blog and portfolio website with Gatsby.js and Netlify CMS
+tags: ["react", "netlify", "gatsby"]
+publish: true
 ---
 
 One of my greatest weaknesses is perfectionism. This is most prevalent in my personal projects where I have no outside stimulus, such as a deadline, to keep me focussed on creating the most value for the least effort. In my personal projects I have a tendency to want to overthink (because it's fun!) the problem and try to come up with creative solutions.
@@ -21,13 +20,13 @@ After initially downloading the full example (thats using Netlify CMS and Gatsby
 
 Following the guide on gatsby, I created a new gatsby site.
 
-```
+```bash
 gatsby new blog https://github.com/gatsbyjs/gatsby-starter-blog
 ```
 
 After this, I knew I wanted my site to be built in Typescript and styled with Styled-Components. To configure these two, I made use of Gatsby's Recipe feature. Running `gatsby recipes` we get a list of all available recipes. From that list I found the ones I was interested in (and looked up a few others for future use)
 
-```
+```bash
 gatsby recipe typescript --install
 ```
 
@@ -36,7 +35,7 @@ To keep things neat, just in case, I actually decided to run the commands separa
 > Don't forget to set your git identity before committing! <br>
 > Coincidentally, I've got a post on that over [here](/blog/manage-git-identity).
 
-```
+```bash
 gatsby recipe styled-components --install
 ```
 
@@ -44,13 +43,13 @@ gatsby recipe styled-components --install
 
 Add the netlify cms dependencies
 
-```
+```bash
 npm install --save netlify-cms-app gatsby-plugin-netlify-cms
 ```
 
 Add the config file (which is setup to work with how gatsby's template is by default)
 
-```
+```bash
 ├── static
 │   ├── admin
 │   │   ├── config.yml
@@ -84,7 +83,7 @@ collections:
 
 This configuration allows placing the post assets along side the markdown files. Which I actually prefer to how Netlify's example project was setup.
 
-```
+```bash
 content/
 ├── blog
 │   ├── first-post-title

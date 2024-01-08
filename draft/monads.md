@@ -1,8 +1,7 @@
 ---
 draft: true
 title: "Monads"
-slug: "monads"
-pubDate: 2000-01-01T00:00:00.000Z
+date: 2000-01-01T00:00:00.000Z
 description: Monads explained simply
 tags: ["coding patterns", "monads", "typescript"]
 ---

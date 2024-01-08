@@ -1,10 +1,9 @@
 ---
 title: Darken and Lighen in Pure CSS
-slug: darken-and-lighen-in-pure-css
-pubDate: 2020-12-29T05:48:09.485Z
+date: 2020-12-29T05:48:09.485Z
 description: How to make SASS's Darken and Lighten mixins in pure CSS and Styled-Components
 tags: ["css", "react"]
-
+publish: true
 ---
 If you're coming from SASS, you're likely used to all the helpful mixins it comes with e.g. lighten and darken.
 

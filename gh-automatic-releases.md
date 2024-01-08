@@ -1,11 +1,10 @@
 ---
-title: How to Automate Github Releases with Github Actions (Continuous Deployment)
-slug: github-actions-continous-deployment-to-release
-pubDate: 2021-04-21T00:21:18.749Z
+title: Github Actions for automatic Github Releases 
+date: 2021-04-21T00:21:18.749Z
 description: How to Automate Github Releases with a Github Actions pipeline for
   Continuous Deployment
 tags: ["git", "til", "devops"]
-
+publish: true
 ---
 
 I've really fallen in love with github actions. They make allow you to play around with continuos integration and enable so much automation for your personal projects.
@@ -15,11 +14,12 @@ If you've ever wanted to make automatic releases on github, look no further.
 ## Step 1: Create the workflow file
 
 Create a new file at this path
-```
+```bash
 .github/workflows/release.yml
 ```
+
 If you're using vscode you can simply click new file and paste that path in. If you're going bare with a terminal have this:
-```
+```bash
 mkdir -p .github/workflows && touch .github/workflows/release.yml
 ```
 
@@ -68,7 +68,7 @@ With the workflow created, unlike in my other guide for a [gh-pages deploy pipel
 > Whats a tag? Its basically a bookmark to a certain commit. Allowing you to easily say checkout tags/v1 or tags/v1.1
 
 TL;DR
-```
+```bash
 git tag -a v<semver> -m "<release message>" # Creates a tag
 git push --tags # This triggers the release
 ```
@@ -77,7 +77,7 @@ Now, theres a good chance that you'd never touched tags. So heres a quick guide:
 
 To view your tags (q to exit as per usual)
 
-```
+```bash
 git tag
 ```
 
@@ -85,17 +85,17 @@ Creating Annotated tags:
 
 > Tags come in two flavours, normal tags and annotated tags. Annotated tags are best practice as they contain a lot of information (such as tag author), however you can use normal tags as temporary tags.
 
-```
+```bash
 git tag -a v<semver> -m "<release message>"
 ```
 This is akin to making a commit, it stays local until explicitly pushing to remote. To do that we simply need to push the tags. `git push` will push everything but if you only want to publish tags theres a flag for that.
 
-```
+```bash
 git push --tags
 ```
 
 The --tags flag is also available on fetch
-```
+```bash
 git fetch --tags
 ```
 

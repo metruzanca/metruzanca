@@ -1,13 +1,12 @@
 ---
-title: Reviving a Powerbook G4 with Lubuntu Linux
-slug: reviving-a-powerbook-g4-with-lubuntu-linux
-pubDate: 2021-04-02T22:37:39.354Z
+title: Installing Linux on a Powerbook G4
+date: 2021-04-02T22:37:39.354Z
 description: Reviving an old macbook with linux
 tags: ["linux"]
-
+publish: true
 ---
 
-![Apple PowerBook G4](./powerbook_redjar.jpg)
+![[powerbook_g4.jpg|Apple PowerBook G4]]
 
 My dad has an old MacBook from 2001, a PowerBook G4 that's been just sitting collecting dust for years. He wanted to try and revive it to use it for casual web browsing. So I told him he could probably pull it off by putting Linux on it.
 
@@ -43,13 +42,13 @@ will default to the american layout so this might come in handy.
 
 For left usb port
 
-```
+```bash
 boot usb0/disk@1:,\\yaboot
 ```
 
 For right usb port
 
-```
+```bash
 boot usb1/disk@1:,\\yaboot
 ```
 

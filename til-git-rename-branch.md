@@ -1,10 +1,9 @@
 ---
-title: Renaming branches
-slug: renaming-branches
-pubDate: 2020-08-17T23:00:13.630Z
+title: TIL Renaming branches
+date: 2020-08-17T23:00:13.630Z
 description: How to rename GIT Branches locally and remotely
 tags: ["software-development", "git", "til"]
-
+publish: true
 ---
 
 _TL;DR below_
@@ -16,13 +15,13 @@ Today I wanted to move my `metruzanca/metruzanca.github.io` to a different repos
 So I decided to move clone my repo and then push it to a new repository `metruzanca/zbest.dev`.
 
 After pulling i needed to rename a few things:
-```
+```bash
 master -> gh-pages
 dev -> master
 ```
 
 Renaming a branch locally is easy enough
-```
+```bash
 git checkout old_branch_name
 
 git branch -m new_branch_name
@@ -32,7 +31,7 @@ As you can imagine this, will create some havoc. So I realized that i needed upd
 
 This is also easy enough
 
-```
+```bash
 git push origin -u branch_name
 ```
 
