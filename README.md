@@ -1,3 +1,5 @@
+<!-- This page is the same as https://github.com/metruzanca/metruzanca -->
+
 # Sam <img width="20px" style="margin-bottom:-0px" src="https://zanca.dev/favicon.png"/>anca
 
 Hey, I'm Sam and I'm a Full-Stack Developer. I wrote my first line of code at age 14 and have been loving it ever since. I mostly build for the web, which is the most accessible and flexible platform. I enjoy building both sleek _User Experiences_ and productive _Developer Experiences_.
@@ -11,9 +13,9 @@ I'm very focussed on growth, **always learning** and **always sharing** what I l
 
 <!-- https://github.com/DenverCoder1/custom-icon-badges -->
 
-[<img src="https://custom-icon-badges.demolab.com/badge/-samuele@zanca.dev-875cff?style=for-the-badge&logo=mention&logoColor=white">](mailto:samuele@zanca.dev)
-[<img src="https://custom-icon-badges.demolab.com/badge/Hoboken, NJ-USA-875cff?style=for-the-badge&logo=location&logoColor=white">](https://www.google.com/maps/place/Hoboken,+NJ/)
-[<img src="https://custom-icon-badges.demolab.com/badge/-Resume-875cff?style=for-the-badge&logo=download&logoColor=white">](https://github.com/metruzanca/metruzanca/raw/master/resumes/latest/resume_samuele-zanca.pdf)
+[<img src="https://custom-icon-badges.demolab.com/badge/-samuele@zanca.dev-875cff?style=for-the-badge&logo=mention&logoColor=white">](mailto:samuele+blog@zanca.dev)
+[<img src="https://custom-icon-badges.demolab.com/badge/Jersey City, NJ-USA-875cff?style=for-the-badge&logo=location&logoColor=white">](https://www.google.com/maps/place/Jersey+City,+NJ)
+[<img src="https://custom-icon-badges.demolab.com/badge/-Resume-875cff?style=for-the-badge&logo=download&logoColor=white">](https://solid-resume.vercel.app/metruzanca)
 [<img src="https://custom-icon-badges.demolab.com/badge/-Schedule a Quick Meeting-f7e13a?style=for-the-badge&logo=calendar&logoColor=black">](https://cal.com/samzanca/15min)
 
 ---
@@ -35,12 +37,13 @@ I'm very focussed on growth, **always learning** and **always sharing** what I l
 <img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
 <img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />
 <img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" />
-<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" />
+<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" />
+<img width="30px" style="padding-right:10px;" src="https://www.solidjs.com/img/logo/without-wordmark/logo.svg" />
 <!-- Note, the last icon needs to have no alignment set -->
 
 <br>
 
-_For side projects, my goto stack has been: svelte, tailwind & prisma._
+_For side projects, my goto stack has been: Solid, Tailwind and I'm currently trying out Turso._
 
 <br>
 
@@ -69,15 +72,11 @@ I have an, often neglected, [Developer Blog](https://zanca.dev/) which I hope to
 
 _Maybe I'll add my latests posts to my readme once I start posting again. 🤔_
 
-<br>
-
 ---
-
-<br>
 
 ### 🎧 Music
 
-I listen to a lot of music, heres what I'm currently listening to.\
+I listen to a lot of music, heres what I'm currently listening to.
 
 (_It's probably Metal or Synthwave_)
 
