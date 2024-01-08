@@ -7,6 +7,7 @@ tags:
   - webdev
   - git
 publish: true
+canonical_url: https://zanca.dev/blog/quartz
 ---
 
 > [!tldr]
