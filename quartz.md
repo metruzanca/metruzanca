@@ -6,7 +6,7 @@ tags:
   - quartz
   - webdev
   - git
-publish: false
+publish: true
 ---
 
 > [!tldr]
@@ -115,48 +115,42 @@ Actually I set up a few using [pomofocus.io](https://pomofocus.io/):
 
 ## Quartz on mobile
 
-Now that the article is pretty much written, and you've made it this far I can show you a nifty you can do with git to reduce the amount of files you have on your phone. Unfortunately, this only works on android. I also have no clue how to get Obsidian vaults on an IOS device, but apparently theres a few ways to do it if you ask in the [Obsidian Discord](https://discord.gg/obsidianmd).
+> Originally, I thought we could use `git sparse-checkout set content` to reduce the amount of files that needed to be checked for updates to improve obsidian-git's performance on mobile. But unfortunately, [Isomorphic-git](https://isomorphic-git.org/) which is what powers obsidian-git, doesn't support sparse mode. If you try it, obsidian will throw an error telling you to create an issue on the isomorphic-git repository.
 
-Since, we won't be editing code on mobile and all we care about is the markdown files inside the `/content` directory, we don't need to clone anything else.
+> [!abstract]- If you're interested, here's what I wrote thinking this would work. Oops
+> Since, we won't be editing code on mobile and all we care about is the markdown files inside the `/content` directory, we don't need to clone anything else.
+> 
+> What we'll do next is clone the repository with some flags on our PC then move the cloned repository on to our Android device.
+> 
+> TL;DR; here's the code
+> ```bash
+> git clone --filter=blob:none --no-checkout https://github.com/user/repository.git;
+> cd repository
+> git sparse-checkout set content;
+> git checkout;
+> ```
+> The magic happens in two parts:
+> 
+> First we clone with the two flags: `--filter=blob:none --no-checkout` which will give us an empty working tree and will set the repository to lazily load the history of all the files from the remote.
+> 
+> Second we we use the `sparse-checkout` command to set it up such that when we `checkout` only the contents of the `content` directory will be pulled.
+> 
+> Lets see how that looks...
+> 
+> [![asciicast](https://asciinema.org/a/SoUCqbeVkHA36nXhNkvvdeVYz.svg)](https://asciinema.org/a/SoUCqbeVkHA36nXhNkvvdeVYz)
+> As you can see, when we clone the repository, its initially empty with just the hidden `.git/` directory. Then after setting the `sparse-checkout` directory and `checking` out we end up with just the content folder.
+> There's one last step that I can't show I'm afraid, and thats because we need to create a personal_access_token on github and use that in our clone URL.
 
-What we'll do next is clone the repository with some flags on our PC then move the cloned repository on to our Android device.
+Following their documentation https://publish.obsidian.md/git-doc/Getting+Started#Mobile
 
-TL;DR; here's the code
+I was able to clone the repo on my PC, then move the file to my android device. Once there, it all opens fine and _does work_, though with pretty bad performance on the `git status` checks. This is because of all the files in the quartz directory slowing things down.
 
-```bash
-git clone --filter=blob:none --no-checkout https://github.com/<user>/<repository>.git;
-cd <repository>;
-git sparse-checkout set content;
-git checkout;
-```
+One idea is to use a submodule for the content, but getting the build on vercel to trigger when a submodule updates is going to be difficult. I can apparently get it to work with 2 github actions but its kind of spaghetti infrastructure at that point: https://www.perplexity.ai/search/github-action-detect-QLw0F4PRR1iaPObfmpKG4A?s=c
 
-The magic happens in two parts:
+Ideally, this would be solved in Quartz itself, by moving all `/quartz` files to a npm package akin to how a framework like [Solidstart](https://start.solidjs.com/getting-started/what-is-solidstart) has a package [@solidjs/start](https://www.npmjs.com/package/@solidjs/start) that contains the framework and in the repository we've got just a few files that hook into the APIs exposed by the package.
 
-First we clone with the two flags: `--filter=blob:none --no-checkout` which will give us an empty working tree and will set the repository to lazily load the history of all the files from the remote.
+I might reach out to quartz and ask if that idea is in the cards or if they wanted help with figuring it out.
 
-Second we we use the `sparse-checkout` command to set it up such that when we `checkout` only the contents of the `content` directory will be pulled.
+---
 
-Lets see how that looks...
-
-<!-- See editor notes [[notes/blog/quartz]] for commands-->
-
-[![asciicast](https://asciinema.org/a/SoUCqbeVkHA36nXhNkvvdeVYz.svg)](https://asciinema.org/a/SoUCqbeVkHA36nXhNkvvdeVYz)
-
-As you can see, when we clone the repository, its initially empty with just the hidden `.git/` directory. Then after setting the `sparse-checkout` directory and `checking` out we end up with just the content folder.
-
-There's one last step that I can't show I'm afraid, and thats because we need to create a personal_access_token on github and use that in our clone URL.
-
-I did however, find a good video walk thru here: https://youtu.be/5YZz38U20ws
-
-Like shown in the video, the url will look something like this and we'll just sub out our ssh/https url for this one. Do not, you cannot use SSH since [Obsidian-Git](https://github.com/denolehov/obsidian-git) uses [Isomorphic-git](https://isomorphic-git.org/) which is written in Javascript for the browser.
-
-> Alternatively, you can just use `git remote set-url origin <new-url>`
-
-```
-https://ghp_xxxxxxxxxxxx@github.com/username/repo.git
-```
-
-Once that's done, we can move the files to our android device.
-
-> If you prefer the obsidian docs explain how you can do all this setup on your android device, however I think its simpler this way. It also has guides for IOS. https://publish.obsidian.md/git-doc/Getting+Started#Mobile
-
+I'm calling that a day. Overall, I'm very satisfied with the outcome and I'm excited to start writing more posts. _Although, probably not using obsidian-git on mobile yet_.
