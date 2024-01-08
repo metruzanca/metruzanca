@@ -14,11 +14,13 @@ If you've ever wanted to make automatic releases on github, look no further.
 ## Step 1: Create the workflow file
 
 Create a new file at this path
+
 ```bash
 .github/workflows/release.yml
 ```
 
 If you're using vscode you can simply click new file and paste that path in. If you're going bare with a terminal have this:
+
 ```bash
 mkdir -p .github/workflows && touch .github/workflows/release.yml
 ```
@@ -57,6 +59,7 @@ The long version. This action will only trigger when we push tags to the reposit
 You could conceivably create multiple zips or other types of packages (e.g. jars) to use as artefacts.
 
 An example of artefacts is the releases of my personal minecraft [texture pack](https://github.com/metruzanca/minecraft-xpd-texture-pack
+
 ) where the pack is distributed as a .zip file.
 
 > In case you're also wondering what `secrets.GITHUB_TOKEN` is, I've asked myself that too. Basically its a token github can use within the action to authenticate as "the repository" in order to perform actions within the repository e.g. creating new releases. You can read more over at the [Docs](https://docs.github.com/en/enterprise-server@3.0/actions/reference/authentication-in-a-workflow).
@@ -68,6 +71,7 @@ With the workflow created, unlike in my other guide for a [gh-pages deploy pipel
 > Whats a tag? Its basically a bookmark to a certain commit. Allowing you to easily say checkout tags/v1 or tags/v1.1
 
 TL;DR
+
 ```bash
 git tag -a v<semver> -m "<release message>" # Creates a tag
 git push --tags # This triggers the release
@@ -88,6 +92,7 @@ Creating Annotated tags:
 ```bash
 git tag -a v<semver> -m "<release message>"
 ```
+
 This is akin to making a commit, it stays local until explicitly pushing to remote. To do that we simply need to push the tags. `git push` will push everything but if you only want to publish tags theres a flag for that.
 
 ```bash
@@ -95,6 +100,7 @@ git push --tags
 ```
 
 The --tags flag is also available on fetch
+
 ```bash
 git fetch --tags
 ```

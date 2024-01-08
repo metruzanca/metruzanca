@@ -27,6 +27,7 @@ With balena installed you can select your drive, the ISO you downloaded via torr
 ## Getting into PowerPC BIOS/boot menu
 
 To get into the powerbook's bios you'll need to hold down this long combination after you turn on your mac `Cmd⌘ + Option/alt + O + F`.
+
 After that you should be presented with a CLI with a white background.
 
 ## Selecting the boot medium
@@ -34,6 +35,7 @@ After that you should be presented with a CLI with a white background.
 PowerBooks are old, thus they don't have a GUI based bios and instead use a CLI. Normally I love me a good CLI as they are much more powerful if you know what you're doing. Sadly this bios is not very user friendly with obscure commands and no user manual. After some digging I found the correct command to boot from USB.
 
 **NB**: if you have a non-american keyboard, while in this CLI your keyboard layout
+
 will default to the american layout so this might come in handy.
 
 ![US keyboard layout](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/KB_United_States-NoAltGr.svg/400px-KB_United_States-NoAltGr.svg.png)

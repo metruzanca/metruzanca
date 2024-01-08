@@ -9,24 +9,29 @@ publish: true
 _TL;DR below_
 
 Today I wanted to move my `metruzanca/metruzanca.github.io` to a different repository for two reasons:
+
 - First, so that I could host my portfolio without all my other gh-pages defaulting to `zbest.dev/<repo name>`
 - I don't like master being the only folder allowed for gh-pages and instead having a dev repo in place of master.
 
 So I decided to move clone my repo and then push it to a new repository `metruzanca/zbest.dev`.
 
 After pulling i needed to rename a few things:
+
 ```bash
 master -> gh-pages
 dev -> master
 ```
 
 Renaming a branch locally is easy enough
+
 ```bash
 git checkout old_branch_name
 
 git branch -m new_branch_name
 ```
+
 I Initially thought that would be enough, but when i pushed to the new repo i noticed that when using commands like `git status` that the now gh-pages branch was still referencing origin/master (which was now a different branch aka what was origin/dev).
+
 As you can imagine this, will create some havoc. So I realized that i needed update the upstream reference.
 
 This is also easy enough

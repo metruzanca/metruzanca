@@ -21,6 +21,7 @@ import {MyComponent} from 'components/MyComponent.tsx'
 ```
 
 Heres the snippet you need:
+
 ```jsonc
 // tsconfig.json
 {
@@ -30,7 +31,7 @@ Heres the snippet you need:
 }
 ```
 
-### BONUS: Wanna import from just `components/`?
+## BONUS: Wanna import from just `components/`?
 
 e.g.
 

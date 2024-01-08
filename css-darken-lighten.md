@@ -5,6 +5,7 @@ description: How to make SASS's Darken and Lighten mixins in pure CSS and Styled
 tags: ["css", "react"]
 publish: true
 ---
+
 If you're coming from SASS, you're likely used to all the helpful mixins it comes with e.g. lighten and darken.
 
 This feature is missing from many frameworks like my favorite, Styled-Components.
@@ -13,13 +14,13 @@ This feature is missing from many frameworks like my favorite, Styled-Components
 
 But if you want a solution that works in all frameworks by just using Pure CSS, this is what this short post is about.
 
-### Method 1
+## Method 1
 
 This first method has the caveat that it will change the entire element's brightness.
 
 Heres 10% lighter and 10% darker.
 
-#### CSS
+### CSS
 
 ```css
 .lighten {
@@ -31,7 +32,7 @@ Heres 10% lighter and 10% darker.
 }
 ```
 
-#### Styled-Components
+### Styled-Components
 
 ```ts
 const lighten = (value:number) => css`
@@ -53,13 +54,13 @@ const StyledButton = styled.button`
 `
 ```
 
-### Method 2
+## Method 2
 
 This next method will only apply the darkening/lightning on the background color.
 
 Once again Heres 10% lighter and 10% darker.
 
-#### CSS
+### CSS
 
 ```css
 .lighten {
@@ -77,7 +78,7 @@ Once again Heres 10% lighter and 10% darker.
 }
 ```
 
-#### Styled-Components
+### Styled-Components
 
 ```ts
 const lighten = (value:number) => css`
