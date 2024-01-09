@@ -19,7 +19,7 @@ For me, it's all about learning and sharing what I pick up along the way. I aim 
 
 ---
 
-### 🧰 Languages and Tools
+### 🛠️ Languages and Tools
 
 <!-- https://devicon.dev/ -->
 
@@ -46,7 +46,7 @@ _For side projects, my goto stack has been: Solid, Tailwind and I'm currently tr
 
 <br>
 
-### 🛠️ Development Philosophies
+### 🧠 Development Philosophies
 
 - [Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/)
 - [Simplicity, Please](https://www.infoq.com/articles/simplicity-manifesto-development/)
