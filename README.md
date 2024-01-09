@@ -67,9 +67,7 @@ I'm an avid user of all 3 main operating systems. Theres no best OS, they all ha
 <br>
 
 ### ✒️ Blog
-I have an, often neglected, [Developer Blog](https://zanca.dev/) which I hope to post to more this year.
-
-_Maybe I'll add my latests posts to my readme once I start posting again. 🤔_
+I’ve been wanting to write more blog posts about what I’m learning. Its 2024, its time to get writing! [Recent Posts](https://zanca.dev/blog/)
 
 ---
 
@@ -83,6 +81,7 @@ I listen to a lot of music, heres what I'm currently listening to.
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=metruzanca&cover_image=true&theme=default&show_offline=false&background_color=121212&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=metruzanca&redirect=true)
 
+_All my music listening is recorded on [last.fm](https://www.last.fm/user/metruzanca)._
 
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 <!-- <img src="https://github-readme-stats.vercel.app/api?username=metruzanca&show_icons=true"/> -->
