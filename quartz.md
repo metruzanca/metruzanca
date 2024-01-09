@@ -1,6 +1,6 @@
 ---
 title: Using Quartz as a Personal Blog
-description: 
+description: How I use Quartz, the static site generator for Obsidian Vaults
 date: 2024-01-08T15:02:53
 tags:
   - quartz
