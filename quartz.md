@@ -11,14 +11,7 @@ canonical_url: https://zanca.dev/blog/quartz
 ---
 
 > [!tldr]
-> If you don't want all the backstory and just want to skip to the technical bits on how to use quarts for blogging and note taking with obsidian as your editor, click here.
-
-#TODO fix click here ^^^^
-
-## TL;DR;
-
-If you just want
-
+> If you don't want all the backstory and just want to skip to the technical bits on how to use quarts for blogging and note taking with obsidian as your editor, [click here](https://zanca.dev/blog/quartz#setting-up-quartz).
 ## Prologue
 
 I've been wanting to write blog posts, for a while now. Posts about things I'm learning, things I'm building and most importantly mistakes I've made.
@@ -43,7 +36,11 @@ Having a highly customized site would be awesome, and there's tons of great ones
 
 All those blogs are awesome. _Especially Amelia's blog, who with just a glance will give all us mere mortals imposter syndrome no matter how long we've been in the industry._
 
-The problem with all these developers sites, is they didn't start blogging with a cool site. They started with some kind of blogging platform like: [dev.to](https://dev.to/), [hashnode.com](https://hashnode.com/), or the [OG](http://og.urbanup.com/10118301) [Medium](https://medium.com/). Heck some developers happily use the default blog starter template of xyz framework. And what better person to use as an example than Dan Abramov with his site [overreacted.io](https://overreacted.io/). _In case you've been living under a rock, Dan created ~~React.js~~.. er I mean.. Redux and Create-React-App. Oh and he works on the react core team at facebook._ And as another example, we've got Ryan Carnianto who still just [blogs to Devto](https://dev.to/ryansolid). Who is Ryan? Creator of [Solidjs](https://www.solidjs.com/), the framework that got everyone talking about Signals. If like me, you watch a lot of "Dev Youtube", SolidJS is the framework beloved by **Both** [@ThePrimeagen](https://www.youtube.com/@theprimeagen) and [@t3dotgg](https://www.youtube.com/@t3dotgg).
+The problem with all these developers sites, is they didn't start blogging with a cool site. They started with some kind of blogging platform like: [dev.to](https://dev.to/), [hashnode.com](https://hashnode.com/), or the [OG](http://og.urbanup.com/10118301) [Medium](https://medium.com/). Heck some developers happily use the default blog starter template of xyz framework.
+
+What better person to use as an example than Dan Abramov with his site [overreacted.io](https://overreacted.io/). _In case you've been living under a rock, Dan created ~~React.js~~.. er I mean.. Redux and Create-React-App. Oh and he works on the react core team at facebook._
+
+Another example, we've got Ryan Carnianto who still just [blogs to Devto](https://dev.to/ryansolid). Who is Ryan? Creator of [Solidjs](https://www.solidjs.com/), the framework that got everyone talking about Signals. If like me, you watch a lot of "Dev Youtube", SolidJS is the framework beloved by **Both** [@ThePrimeagen](https://www.youtube.com/@theprimeagen) and [@t3dotgg](https://www.youtube.com/@t3dotgg).
 
 Alright, we don't need to make our own. So what am I using?
 
