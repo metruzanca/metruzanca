@@ -9,3 +9,15 @@ tags:
 publish: false
 ---
 %% https://github.com/solidjs/solid-start/issues/1192 %%
+
+
+
+## What's new in Beta 2
+
+%% Break down what's new. Specifically: "use server" vs nextjs,  %%
+
+## Migrating from Beta 1
+
+ Mention the docs 
+
+ Mention my experience doing it

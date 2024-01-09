@@ -4,15 +4,15 @@ description: How I use Quartz, the static site generator for Obsidian Vaults
 date: 2024-01-08T15:02:53
 tags:
   - quartz
-  - webdev
   - git
+  - obsidian
 publish: true
 canonical_url: https://zanca.dev/blog/quartz
 ---
 
 > [!tldr]
 > If you don't want all the backstory and just want to skip to the technical bits on how to use quarts for blogging and note taking with obsidian as your editor, [click here](https://zanca.dev/blog/quartz#setting-up-quartz).
-## Prologue
+## Prologue - Dealing with perfectionism
 
 I've been wanting to write blog posts, for a while now. Posts about things I'm learning, things I'm building and most importantly mistakes I've made.
 
