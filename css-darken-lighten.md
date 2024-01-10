@@ -4,6 +4,7 @@ date: 2020-12-29T05:48:09.485Z
 description: How to make SASS's Darken and Lighten mixins in pure CSS and Styled-Components
 tags: ["css", "react"]
 publish: true
+canonical_url: https://zanca.dev/blog/css-darken-lighten
 ---
 
 If you're coming from SASS, you're likely used to all the helpful mixins it comes with e.g. lighten and darken.

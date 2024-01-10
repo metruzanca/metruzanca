@@ -5,6 +5,7 @@ description: How to Automate Github Releases with a Github Actions pipeline for
   Continuous Deployment
 tags: ["git", "til", "devops"]
 publish: true
+canonical_url: https://zanca.dev/blog/gh-automatic-releases
 ---
 
 I've really fallen in love with github actions. They make allow you to play around with continuos integration and enable so much automation for your personal projects.

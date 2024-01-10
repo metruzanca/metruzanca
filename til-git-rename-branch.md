@@ -4,6 +4,7 @@ date: 2020-08-17T23:00:13.630Z
 description: How to rename GIT Branches locally and remotely
 tags: ["software-development", "git", "til"]
 publish: true
+canonical_url: https://zanca.dev/blog/til-git-rename-branch
 ---
 
 _TL;DR below_

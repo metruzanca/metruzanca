@@ -7,6 +7,7 @@ tags:
   - devops
   - til
 publish: true
+canonical_url: https://zanca.dev/blog/gh-static-site
 ---
 
 I often create **React** or **Gatsby** apps and usually just opt to use github pages as a host.

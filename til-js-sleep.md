@@ -4,6 +4,7 @@ date: 2020-10-17T23:50:38.008Z
 description: How to make a actual sleep function in Javascript
 tags: ["til", "javascript"]
 publish: true
+canonical_url: https://zanca.dev/blog/til-js-sleep
 ---
 
 Occasionally if you'd like to put execution in pause, in other languages, this is done with a function called `sleep()` (or `wait()`). In javascript, you might think that this can be done with `setTimeout()`, but you'd be wrong. This will only queue a task to be executed later while the main script still continues executing to completion.

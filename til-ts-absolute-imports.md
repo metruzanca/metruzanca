@@ -4,6 +4,7 @@ date: 2020-08-16T23:39:44.486Z
 description: How to setup Absolute Imports in a Typescript project
 tags: ["typescript", "til"]
 publish: true
+canonical_url: https://zanca.dev/blog/til-ts-absolute-imports
 ---
 
 If you hate seeing this:

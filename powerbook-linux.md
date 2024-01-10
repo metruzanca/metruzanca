@@ -4,6 +4,7 @@ date: 2021-04-02T22:37:39.354Z
 description: Reviving an old macbook with linux
 tags: ["linux"]
 publish: true
+canonical_url: https://zanca.dev/blog/powerbook-linux
 ---
 
 ![[powerbook_g4.jpg|Apple PowerBook G4]]
