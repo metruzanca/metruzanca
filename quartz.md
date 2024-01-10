@@ -74,7 +74,7 @@ While importing them, I didn't like how long my urls were, so I updated all my b
 
 By default Quartz comes with `Plugin.RemoveDrafts()` which is essentially an "opt-out" of being published. My plan was to unify my personal notes and blog into one Obsidian Vault, so this would be very tedious. Fortunately, Quartz has a second plugin `Plugin.ExplicitPublish()` which is perfect for my needs.
 
-One additional benefit to the `ExplicitPublish` is I can publish individual notes that aren't in my blog folder. This way, say I've written up a personal note on how to [[run-postgres-in-docker]] I can just publish that single note. (_If this file links to other non-published files, Quartz won't publish those_)
+One additional benefit to the `ExplicitPublish` is I can publish individual notes that aren't in my blog folder. This way, say I've written up a personal note on how to [[Postgres in docker]] I can just publish that single note. (_If this file links to other non-published files, Quartz won't publish those_)
 
 Aside from this plugin swap, the only other two major changes to Quartz's `quartz.config.ts` & `quartz.layout.ts` files was disable the Graph component and add a component to create a list of recent posts on the sidebar on desktop and above the footer on mobile.
 
