@@ -1,10 +1,8 @@
 ---
-draft: true # not a draft, I just don't want this on my public site anymore...
-title: "High School CS Major to Full-Time FullStack Developer"
-date: "2019-09-30T10:30:35.562Z"
-description: "15 days into my first job, I look back on my journey thus far. Having majored in CS in highschool, self-teaching myself the skills necessary to land a good job in the biggest City in italy, Milan."
-tags: []
-publish: false
+title: High School CS Major to Full-Time FullStack Developer
+date: 2019-09-30T10:30:35.562Z
+description: 15 days into my first job, I look back on my journey thus far. Having majored in CS in highschool, self-teaching myself the skills necessary to land a good job in the biggest City in italy, Milan.
+tags:
 ---
 
 Hello, my name is Samuel. I'm a 21yo self-taught full-stack developer and I'm about 2 weeks into my first development job in the Aerospace industry as an IT consultant.

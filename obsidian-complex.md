@@ -1,10 +1,10 @@
 ---
-title: You're likely using Obsidian wrong
-description: Many plugins like Dataview or Templater, introduce unnecessary complexity and lock you into Obsidian, going against Obsidian's core idea.
+title: 
+description: 
 date: 2024-01-09T15:06:59
 tags:
   - obsidian
-canonical_url: https://zanca.dev/blog/obsidian
+canonical_url: https://zanca.dev/blog/obsidian-complex
 publish: false
 ---
 

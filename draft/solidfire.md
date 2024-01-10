@@ -1,10 +1,12 @@
 ---
-draft: true
-title: "SolidJS + Firebase Guide"
+title: SolidJS + Firebase Guide
 date: 2000-01-01T00:00:00.000Z
 description: How to use Firebase with SolidJS
-tags: ["solidjs", "firebase", "typescript"]
-# TODO make a thumbnail
+tags:
+  - solidjs
+  - firebase
+  - typescript
+publish: false
 ---
 
 [DRAFT]

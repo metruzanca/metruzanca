@@ -1,9 +1,11 @@
 ---
 title: Learn Typescript Quickly
 date: 2023-09-08T11:22:47.574Z
-# TODO updated date
 description: Learn the Basics of Typescript in 5 minutes
-tags: ["typescript", "react"]
+tags:
+  - typescript
+  - react
+publish: false
 ---
 
 ## Learn Typescript in 5minutes
