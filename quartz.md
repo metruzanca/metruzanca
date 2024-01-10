@@ -117,9 +117,9 @@ Actually I set up a few using [pomofocus.io](https://pomofocus.io/):
 
 > [!abstract]- If you're interested, here's what I wrote thinking this would work. Oops
 > Since, we won't be editing code on mobile and all we care about is the markdown files inside the `/content` directory, we don't need to clone anything else.
-> 
+>
 > What we'll do next is clone the repository with some flags on our PC then move the cloned repository on to our Android device.
-> 
+>
 > TL;DR; here's the code
 > ```bash
 > git clone --filter=blob:none --no-checkout https://github.com/user/repository.git;
@@ -128,13 +128,13 @@ Actually I set up a few using [pomofocus.io](https://pomofocus.io/):
 > git checkout;
 > ```
 > The magic happens in two parts:
-> 
+>
 > First we clone with the two flags: `--filter=blob:none --no-checkout` which will give us an empty working tree and will set the repository to lazily load the history of all the files from the remote.
-> 
+>
 > Second we we use the `sparse-checkout` command to set it up such that when we `checkout` only the contents of the `content` directory will be pulled.
-> 
+>
 > Lets see how that looks...
-> 
+>
 > [![asciicast](https://asciinema.org/a/SoUCqbeVkHA36nXhNkvvdeVYz.svg)](https://asciinema.org/a/SoUCqbeVkHA36nXhNkvvdeVYz)
 > As you can see, when we clone the repository, its initially empty with just the hidden `.git/` directory. Then after setting the `sparse-checkout` directory and `checking` out we end up with just the content folder.
 > There's one last step that I can't show I'm afraid, and thats because we need to create a personal_access_token on github and use that in our clone URL.

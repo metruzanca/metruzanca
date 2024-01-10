@@ -4,7 +4,7 @@ description: Many plugins like Dataview or Templater, introduce unnecessary comp
 date: 2024-01-09T15:06:59
 tags:
   - obsidian
-canonical_url: 
+canonical_url: https://zanca.dev/blog/obsidian
 publish: false
 ---
 
