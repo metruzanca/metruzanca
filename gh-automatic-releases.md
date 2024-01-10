@@ -1,9 +1,11 @@
 ---
-title: Github Actions for automatic Github Releases 
+title: Github Actions for automatic Github Releases
 date: 2021-04-21T00:21:18.749Z
-description: How to Automate Github Releases with a Github Actions pipeline for
-  Continuous Deployment
-tags: ["git", "til", "devops"]
+description: How to Automate Github Releases with a Github Actions pipeline for Continuous Deployment
+tags:
+  - til
+  - devops
+  - github
 publish: true
 canonical_url: https://zanca.dev/blog/gh-automatic-releases
 ---

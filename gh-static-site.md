@@ -3,9 +3,9 @@ title: Deploy website to GitHub Pages
 date: 2020-08-17T23:35:00.530Z
 description: How to easily setup a CI pipeline with github actions to deploy a Static Site (e.g. React or Gatsby) to Github Pages
 tags:
-  - git
   - devops
   - til
+  - github
 publish: true
 canonical_url: https://zanca.dev/blog/gh-static-site
 ---

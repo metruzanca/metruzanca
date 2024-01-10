@@ -4,8 +4,8 @@ description: How I use Quartz, the static site generator for Obsidian Vaults
 date: 2024-01-08T15:02:53
 tags:
   - quartz
-  - git
   - obsidian
+  - blog
 publish: true
 canonical_url: https://zanca.dev/blog/quartz
 ---
