@@ -53,3 +53,11 @@ Do use something like https://resumeworded.com
 ### Resources:
 - https://learn.g2.com/resume-verbs
 - https://resumeworded.com
+
+
+
+---
+
+https://github.com/metruzanca/solid-resume
+
+https://solid-resume.vercel.app/
