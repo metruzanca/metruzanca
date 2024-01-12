@@ -33,9 +33,6 @@ gatsby recipe typescript --install
 
 To keep things neat, just in case, I actually decided to run the commands separately and make a commit for each of them.
 
-> Don't forget to set your git identity before committing! <br>
-> Coincidentally, I've got a post on that over [here](/blog/manage-git-identity).
-
 ```bash
 gatsby recipe styled-components --install
 ```
