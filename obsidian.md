@@ -48,3 +48,16 @@ Dataview, as compelling as it is, it introduces a layer of complexity. Viewing y
 ### The Frontmatter
 
  #TODO should mention how frontmatter is widely adopted. e.g. github will display the data in a table similarly to obsidian.
+
+---
+> https://www.reddit.com/r/ObsidianMD/comments/1ah34r2/what_i_wish_i_known_about_obsidian_when_i_first/
+> - **Don't over design your vault while you're learning.** You're going to do it anyway because it's part of the learning process, but be aware that you'll have to refactor the hell out of it afterwards.
+> - **Plugins come in two types: the ones that make writing more convenient and the ones that make your notes dependent on them to function.** Be cautious of the second type because its the enemy of future-proofing. Occasional reflect on how usable your vault and individual notes are without the `.obsidian` folder
+
+Those first two points pretty much sums up my opinions.
+
+Previously, I had a few vaults but now I've merged them all into one and I completely dropped templater and dataview. I have 90% of my notes in the `/notes` folder and I make heavy use of: tags, backlinks and search.
+
+This vault, is my most productive vault yet and its by FAR the simplest. Its also the most enjoyment I've had with obsidian.
+
+My MUST have plugins are all of type A: [Linter](https://github.com/platers/obsidian-linter), [Paste URL into Selection](https://github.com/denolehov/obsidian-url-into-selection) and [Quick Switcher++](https://github.com/darlal/obsidian-switcher-plus).
