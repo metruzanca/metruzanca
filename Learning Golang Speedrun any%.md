@@ -18,3 +18,5 @@ canonical_url: https://zanca.dev/blog/
 - How modules work
 - How Json, yaml and maybe toml work
   - Practice with passing by ref vs value
+
+
