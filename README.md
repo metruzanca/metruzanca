@@ -60,7 +60,7 @@ _For side projects, my goto stack has been: Solid, Tailwind and I'm currently tr
 
 I'm an avid user of all 3 main operating systems. Theres no best OS, they all have their pros and cons. Linux wise, I'm currently back on ubuntu for simplicity sake, but I've previously used Arch for a full 2 years and breifly experimented with NixOs.
 
-<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" />
+<img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" />
 <img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" />
 <img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" />
 
