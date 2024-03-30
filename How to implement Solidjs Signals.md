@@ -8,3 +8,8 @@ tags:
 
 > [!tldr]-
 > ![[signals-snippet]]
+
+Another interesting blog post about reactivity with another good implementation
+
+https://lihautan.com/reactivity-in-web-frameworks-the-when/
+- [ ] 
