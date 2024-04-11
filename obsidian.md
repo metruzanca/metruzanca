@@ -9,6 +9,18 @@ publish: false
 ---
 
 ## [DRAFT]
+
+<!--
+idk where to put this
+
+## Tags vs Folders
+
+Tags are great because you can't put a file in multiple folders, but you can give it multiple tags. So tags can be treated as "virtual folders". Tags serve the same purpose as folders.
+
+However, folders have on advantage and that is they are easier to navigate for outside readers of a vault. (might be worth trying to figure out how to render tags as folders and pick which tags to be "virtual-folders")
+
+-->
+
 ### Simplicity and Universality
 
 Obsidian is an exciting note-taking app that offers a fantastic user experience. As a developer, its knack for reusing existing notes aligns perfectly with how we segment code into reusable snippets. Obsidian is a tool that empowers non-coders with the same ability to break down and reuse knowledge, just like we do with code. Tools like Obsidian resonate well because they treat knowledge just like code - meant to be broken down and reused.
