@@ -79,7 +79,7 @@ I listen to a lot of music, heres what I'm currently listening to.
 
 <!-- https://github.com/kittinan/spotify-github-profile -->
 
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=metruzanca&cover_image=true&theme=default&show_offline=false&background_color=121212&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.vercel.app/api/view?uid=metruzanca&redirect=true)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=metruzanca&cover_image=true&theme=default&show_offline=false&background_color=121212&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=metruzanca&redirect=true)
 
 _All my music listening is recorded on [last.fm](https://www.last.fm/user/metruzanca)._
 
