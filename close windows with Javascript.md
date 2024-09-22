@@ -1,6 +1,6 @@
 ---
-title: How to close Windows or Tabs with JavaScript
-description: How to close the current tab or window with Javascript
+title: How to close the current window with JavaScript
+description: Explaining the quirks and workaround for closing windows in Javascript
 tags:
   - javascript
   - til
