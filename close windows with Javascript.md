@@ -42,7 +42,7 @@ I believe, that close takes arguments for backwards compatibility purposes, but 
 
 `window.open(location, '_self').close()`: on the other hand, tries to open a window, but since `_self` already exists, then it gets reused and then we can call close on it, but since it was "opened" via Javascript, it no longer is blocked.
 
-> ##### 7.2.2.1 Opening and closing windows
+> ##### [7.2.2.1 Opening and closing windows](https://html.spec.whatwg.org/multipage/nav-history-apis.html#apis-for-creating-and-navigating-browsing-contexts-by-name)
 >  [...] If a window already exists with that name, it is reused.
 
 Both workarounds seem to work in Chromium: `128.0.6613.138` (Official Build) (64-bit).
