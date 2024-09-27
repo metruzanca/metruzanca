@@ -19,6 +19,8 @@ publish: false
 - [ ] Include lots of screenshots and code examples.
 - [ ] How do you translate a big json data structure to a lustre model and what happens when you update a top level node, a mid node and a leaf. How do the children react? What causes them to rerender?
 
+---
+- [ ] Find the frontend performance benchmark tests that RyanCarnianto likes to use and build one for Gleam+Lustre. Maybe contribute to that repo.
 
 ## References
 - https://dev.to/ryansolid/a-hands-on-introduction-to-fine-grained-reactivity-3ndf
