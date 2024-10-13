@@ -21,6 +21,8 @@ publish: false
 
 ---
 - [ ] Find the frontend performance benchmark tests that RyanCarnianto likes to use and build one for Gleam+Lustre. Maybe contribute to that repo.
+- [ ] At this timestamp: https://youtu.be/4n5fFMLVOBo?t=2887: "What about a server side component that contains a client side component that contains a server side component". "hayleigh says it just works". Lets put that to the test.
+- [ ] Use ryan carnianto's favorite FE benchmarks for gleam.
 
 ## References
 - https://dev.to/ryansolid/a-hands-on-introduction-to-fine-grained-reactivity-3ndf
