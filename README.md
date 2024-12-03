@@ -23,6 +23,7 @@ For me, it's all about learning and sharing what I pick up along the way. I aim 
 
 <!-- https://devicon.dev/ -->
 
+<img align="left" width="30px" style="padding-right:10px;" src="https://gleam.run/images/lucy/lucy.svg"/>
 <img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"/>
 <img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 <img align="left" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
