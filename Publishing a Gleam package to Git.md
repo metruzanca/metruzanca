@@ -18,6 +18,49 @@ Another reason you might want to publish to Git instead of Hex, is if you're sti
 
 The title might be a bit misleading/clickbait, since all you need to do is push your code to git, assuming your project root, contains a gleam.toml file.
 
+<!-- STUFF here -->
+
+```yml
+# .github/workflows/gh-pages.yml
+name: Deploy docs content to Pages
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: erlef/setup-beam@v1
+        with:
+          otp-version: "27.1.2"
+          gleam-version: "1.9.0"
+
+      - name: Build Gleam Docs
+        run: gleam docs build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/dev/docs/lustrechar
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+```
 
 ## Other possible questions
 ### Monorepo project with multiple packages.
