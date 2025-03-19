@@ -43,16 +43,20 @@ For me, it's all about learning and sharing what I pick up along the way. I aim 
 
 <br>
 
-_For side projects, my goto stack has been: Solid, Tailwind and I'm currently trying out Turso._
+_For side projects, my go-to stack has been: [Solid-Start](https://start.solidjs.com/getting-started/what-is-solidstart), [Tailwind](https://tailwindcss.com/) and recently been learning[Gleam](https://gleam.run)._
 
 <br>
 
 ### 🧠 Development Philosophies
 
-- [Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/)
+
 - [Simplicity, Please](https://www.infoq.com/articles/simplicity-manifesto-development/)
+- [No Hello Club](https://nohello.club/)
+- [37 signals](https://37signals.com/)
+- [Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/)
 - [Agile](https://agilemanifesto.org/)
 
+Other nice [philosophies](https://zanca.dev/philosophies).
 
 <br>
 
