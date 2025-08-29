@@ -54,8 +54,6 @@ Do use something like https://resumeworded.com
 - https://learn.g2.com/resume-verbs
 - https://resumeworded.com
 
-
-
 ---
 
 https://github.com/metruzanca/solid-resume

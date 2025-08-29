@@ -60,7 +60,6 @@ Express the value you added to the client/company. -->
 <!--
 Remember to keep your case study concise and focused on your achievements. It should demonstrate your skills, problem-solving abilities, and the positive impact you had on the project. Good luck with your portfolio! -->
 
-
 ---
 
 Use [[backspace-audit]]
