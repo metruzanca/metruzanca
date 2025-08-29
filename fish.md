@@ -12,18 +12,19 @@ publish: true
 
 Tired of endlessly tweaking your shell configuration? Fish offers a refreshingly opinionated and powerful experience right out of the box.
 
-I love the Fish shell for several reasons, the first being the **out-of-box experience is best in class**. You don't need to go crazy with plugins or hell even a status line tool like `oh-my-zsh`. You can just get to work. Fish comes with so many nice features that make moving around in the terminal so pleasant. To name a few:
+I love the Fish shell for several reasons, the first being the **out-of-box experience is best in class**. You don't need to go crazy with plugins or hell even a status line tool like `oh-my-zsh`. You can just get to work. Fish comes with so many nice features that make moving around in the terminal so pleasant. 
 
-- Superior shell completions: not only do you get inline documentation, pulled straight for the man page, but the tab completion and options picking experience is just implemented better than all other shells.
-- Navigation shortcuts: `alt/option/super+left_arrow/right_arrow` will move between your cd history, so going back and forwards is very quick.
-- Command history: Fish proactively suggests commands based on history and completions as you type. Pressing `up` will of course like all shells cycle your commands, but if you type a command e.g. `cd` and then press `up` you'll filter to all usages of `cd` only. And this also includes if you've used cd at the end of your command e.g. if you've piped into it.
-    - Additionally, pressing `super`+`up` will cycle thru the parameters of your previous commands and you can do this at any point, so if you have a path in a previous command, you don't have to copy paste that path, you can just cycle to it with this shortcut.
-- Abbreviations: like aliases, but unlike them, they expand after you use them. This way your shell history will always be readable. You will never ask yourself: "I deleted cmd, what did that alias do again?"
-- Syntax Highlighting: Fish has syntax highlighting by default. It's a small but significant UX improvement.
-- Oh and its just faster. Even before the RustBTW rewrite.
-- And many more that I can't remember but use every day due to muscle memory.
-
-> Caveat: Nushell is very compelling too as it has very comparable UX to Fish, but fish is a more familiar shell. Nushell completely changes the paradigm and offers features that might not interest you. Worth noting that both Nu and Fish have their own shell language.
+> [!example]- To name a few
+> - Superior shell completions: not only do you get inline documentation, pulled straight for the man page, but the tab completion and options picking experience is just implemented better than all other shells.
+> - Navigation shortcuts: `alt/option/super+left_arrow/right_arrow` will move between your cd history, so going back and forwards is very quick.
+> - Command history: Fish proactively suggests commands based on history and completions as you type. Pressing `up` will of course like all shells cycle your commands, but if you type a command e.g. `cd` and then press `up` you'll filter to all usages of `cd` only. And this also includes if you've used cd at the end of your command e.g. if you've piped into it.
+>    - Additionally, pressing `super`+`up` will cycle thru the parameters of your previous commands and you can do this at any point, so if you have a path in a previous command, you don't have to copy paste that path, you can just cycle to it with this shortcut.
+> - Abbreviations: like aliases, but unlike them, they expand after you use them. This way your shell history will always be readable. You will never ask yourself: "I deleted cmd, what did that alias do again?"
+> - Syntax Highlighting: Fish has syntax highlighting by default. It's a small but significant UX improvement.
+> - Oh and its just faster. Even before the RustBTW rewrite.
+> - And many more that I can't remember but use every day due to muscle memory.
+> > Caveat: Nushell is very compelling too as it has very comparable UX to Fish, but fish is a more familiar shell. Nushell completely changes the paradigm and offers features that might not interest you. Worth noting that both Nu and Fish have their own shell language.
+ 
 
 Another reason is **configuration**. Yes, Fish has its own scripting language which makes it not POSIX compliant. Most make this out to be a bigger deal than it actually is. People complain about it being a poor choice for scripting and issues with portability. The solution to both of these, is to use fish-lang for only its designed purpose.
 
