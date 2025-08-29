@@ -12,7 +12,7 @@ publish: true
 
 Tired of endlessly tweaking your shell configuration? Fish offers a refreshingly opinionated and powerful experience right out of the box.
 
-I love the Fish shell for several reasons, the first being the **out-of-box experience is best in class**. You don't need to go crazy with plugins or hell even a status line tool like `oh-my-zsh`. You can just get to work. Fish comes with so many nice features that make moving around in the terminal so pleasant. 
+I love the Fish shell for several reasons, the first being the **out-of-box experience is best in class**. You don't need to go crazy with plugins or hell even a status line tool like `oh-my-zsh`. You can just get to work. Fish comes with so many nice features that make moving around in the terminal so pleasant.
 
 > [!example]- To name a few
 > - Superior shell completions: not only do you get inline documentation, pulled straight for the man page, but the tab completion and options picking experience is just implemented better than all other shells.
@@ -24,7 +24,6 @@ I love the Fish shell for several reasons, the first being the **out-of-box expe
 > - Oh and its just faster. Even before the RustBTW rewrite.
 > - And many more that I can't remember but use every day due to muscle memory.
 > > Caveat: Nushell is very compelling too as it has very comparable UX to Fish, but fish is a more familiar shell. Nushell completely changes the paradigm and offers features that might not interest you. Worth noting that both Nu and Fish have their own shell language.
- 
 
 Another reason is **configuration**. Yes, Fish has its own scripting language which makes it not POSIX compliant. Most make this out to be a bigger deal than it actually is. People complain about it being a poor choice for scripting and issues with portability. The solution to both of these, is to use fish-lang for only its designed purpose.
 
@@ -37,6 +36,22 @@ As for integrating with tools most tools out there have fish integrations, so us
 - Use [`bass`](https://github.com/edc/bass) for interoperability.
 
 Additionally, if you don't want a complex config, you can use the command `fish_config` which will give you a web-ui for customizing: themes, prompt, functions, and keybindings in a jiffy. This lets you get up and running with fish even faster.
+
+## Autocomplete
+
+I just want to show a quick example of fish's game changing auto-complete.
+
+Say you were to try this command in git:
+
+```bash
+# First some setup
+git checkout -b something-foo-bar-spike-feature-final;
+git checkout main;
+# Try this in bash, zsh, and fish
+git checkout spike # press tab after spike
+```
+
+Only fish will give you an autocomplete result (out of the box). Because unlike bash and zsh, fish will fuzzy find and has built-in git integration.
 
 ## General practices
 
@@ -78,3 +93,17 @@ Generally, if a tool appends a blob of code to my config file, that's a good can
 ### functions
 
 Another great feature of fish, each file named after a command is a sort of lazy-evaluated script. All files here are only loaded when the function is called. So e.g. if I never uses `bass`, it'll never be evaluated.
+
+---
+
+## Command line tools I use with Fish
+
+> More details https://github.com/metruzanca/dotfiles/tree/master/home/.config/fish
+
+I use [starship.rs](https://starship.rs) as my status line. Starship has very similar opinions to fish. The out-of-box experience is superb and configuration is very simple.
+
+I use [zoxide](https://github.com/ajeetdsouza/zoxide) as an improved `cd` which lets me just teleport to places I've previously been to.
+
+I use [lsd](https://github.com/lsd-rs/lsd) as a fancy `ls` replacement. And I hook into fish's `fish_prompt` event to call ls after changing directories so I always get a list as I move (which eliminates most calls of lsd).
+
+My prompt starts up with `pfetch` because its pretty.
