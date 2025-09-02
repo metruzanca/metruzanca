@@ -27,9 +27,9 @@ In functional programming, mutation is typically avoided. However, by using accu
 
 The only negative in Gleam is you'll have to make a public facing wrapper function to hide the accumulator parameters since Gleam doesn't support optional or default arguments.
 
-## Examples
+## Example
 
-### Classic Fibonacci
+Every recursive function can be turned into a tail-recursive one. So lets start with a classic example of Fibonacci, since its often used to explain recursion and we usually see it in its non tail-recursive form.
 
 ```rust
 fn fibonacci(n: Int) -> Int {
@@ -40,6 +40,8 @@ fn fibonacci(n: Int) -> Int {
   }
 }
 ```
+
+To make it tail-recursive, we need to make sure the last call is a single call, not two. If you think about how a human would solve this, they would go in pairs of two: 0 + 1 is 1. 1 + 1, is 2, 1 + 2 is 3, 2 + 3 is 5. So lets add 2 accumulator values to keep track of our pairs.
 
 ```rust
 // Private, actual tail recursive function
@@ -82,7 +84,7 @@ fibonacci_tail(1, 34, 55)
 55
 ```
 
-And here's a javascript version
+And here's a javascript version using an iterative approach.
 
 ```js
 function fibonacciIterative(n) {
