@@ -10,6 +10,8 @@ publish: false
 
 ## Introduction:
 
+Backspace was building a product very similar to what 
+
 <!-- Briefly introduce the project you worked on.
 Mention the client or company you collaborated with.
 Provide context for the project's objectives and goals. -->
