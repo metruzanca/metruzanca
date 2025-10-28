@@ -71,6 +71,9 @@ I'm an avid user of all 3 main operating systems. Theres no best OS, they all ha
 
 <br>
 
+## 🤔 Fun Facts
+- I was interviewed on CBS Morning about AI back when ChatGPT was first going viral.  [Clip1](https://youtu.be/EmO6dBcqQ2w?t=52) & [clip2](https://youtu.be/EmO6dBcqQ2w?t=294).
+
 ### ✒️ Blog
 I’ve been wanting to write more blog posts about what I’m learning. Its 2024, its time to get writing! [Recent Posts](https://zanca.dev/blog/)
 
