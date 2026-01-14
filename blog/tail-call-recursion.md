@@ -13,7 +13,7 @@ canonical_url: https://zanca.dev/blog/tail-call-optimization
 
 Tail-Call Optimization is compiler optimization that allows a recursive function, where the last line of the function is the call to itself, to reuse the same memory stack, thus allowing the recursive function to use constant memory.
 
-> ![[hayleigh-on-tco.png|350]]
+> ![hayleigh on tco](./_assets/hayleigh-on-tco.png)
 >
 > proof: `Specification and Transformation of Programs by Helmut A. Partsch; Chapter 6`
 

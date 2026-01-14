@@ -116,7 +116,7 @@ for _, file := range nonEmptyMdFiles {
 
 > commit of this code: [396f64e](https://github.com/metruzanca/lava/commit/396f64e0e51d2679b38056fa74e4da98bcb9a2b5)
 
-This pipeline is a little noisy, comparing again to a language like Gleam, which has a [[Hindley-Milner type system]], which provides static types while omitting types that can be inferred.
+This pipeline is a little noisy, comparing again to a language like Gleam, which has a [Hindley-Milner type system](https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system), which provides static types while omitting types that can be inferred.
 
 > If Go had such a type system, we could omit some unnecessary types e.g. the `Filter` predicate could have been `func (f) { strings.HasSuffix(f, ".md") }`. We know what f is, since it **has to be** an element of `files` and we know what the return is, since it again has to satisfy the predicate signature. But we could take it a step further and the function passed to `Map` would also be much shorter: `func (f) { { Path: f, Content: fs.ReadFile(f) } }` and we would know that this is a `&LavaFile`, because there's no other possible value that it could be. And if your compiler can't figure out what it should be, then you'd be forced to provide a type. HM type systems are awesome.
 

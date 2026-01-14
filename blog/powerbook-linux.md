@@ -7,7 +7,7 @@ publish: true
 canonical_url: https://zanca.dev/blog/powerbook-linux
 ---
 
-![[powerbook_g4.jpg|Apple PowerBook G4]]
+![Apple PowerBook G4](./_assets/powerbook_g4.jpg)
 
 My dad has an old MacBook from 2001, a PowerBook G4 that's been just sitting collecting dust for years. He wanted to try and revive it to use it for casual web browsing. So I told him he could probably pull it off by putting Linux on it.
 

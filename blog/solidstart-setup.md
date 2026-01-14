@@ -1,7 +1,6 @@
 ---
 title: How I setup my SolidStart apps
 canonical_url: https://zanca.dev/blog/solidstart-setup
-daily_note: "[[2025-12-30]]"
 timestamp: 2025-12-30T19:40:21
 tags:
   - solidjs

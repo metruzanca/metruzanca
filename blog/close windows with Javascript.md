@@ -22,7 +22,7 @@ So apparently, you cannot use `window.close();` to close the current window, unl
 
 `close` doesn't actually take any arguments... (_also see [mdn](https://developer.mozilla.org/en-US/docs/Web/API/Window/close)_)
 
-![[js-window-close-args.png]]
+![js window close args](./_assets/js-window-close-args.png)
 
 Reading the [html spec](https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-window-close-dev), `close` doesn't have args either.
 
@@ -32,7 +32,7 @@ Apparently `_parent`, much like the widely known `_blank` has to do with `a` tag
 
 Here's an interesting graphic explaining the targets from [stackoverflow](https://stackoverflow.com/questions/18470097/difference-between-self-top-and-parent-in-the-anchor-tag-target-attribute).
 
-![[js-browser-url-targets.png]]
+![js browser url targets](./_assets/js-browser-url-targets.png)
 
 My best guess, is that this works purely for backwards compatibility. There's even a [post](https://lonare.medium.com/window-close-not-working-how-to-redirect-the-parent-window-i-have-got-you-covered-solution-56c63a40f169) talking about a similar workaround/exploit where you can call: `window.open(location, '_self').close()` that seems like it worked the same way.
 
