@@ -2,9 +2,9 @@
 
 # Sam <img width="20px" style="margin-bottom:-0px" src="https://zanca.dev/static/icon.png"/>anca
 
-Hey there, I'm Sam, a seasoned Full-Stack Developer driven by a passion for creating user-friendly digital experiences. Since I tinkered with my first line of code at 14, I've been all about keeping things simple in software. I love making the web more accessible and flexible, shaping both smooth User Experiences and hassle-free Developer Experiences.
+Hey there, I’m Sam, a seasoned Full-Stack Developer driven by a passion for creating user-friendly digital experiences. Since I tinkered with my first line of code in high school, I’ve been all about keeping things simple in software. I love making the web more accessible and flexible, shaping both smooth User Experiences and hassle-free Developer Experiences.
 
-For me, it's all about learning and sharing what I pick up along the way. I aim to be a reliable source of expertise and experience for my team. I'm driven by the desire to empower teammates, fostering an environment where everyone thrives. My eyes are set on leading a team in the near future, eager to guide and cultivate a collaborative, innovative atmosphere.
+For me, it’s all about learning and sharing what I pick up along the way. I aim to be a reliable source of expertise and experience for my team. I’m driven by the desire to empower teammates, fostering an environment where everyone thrives. My eyes are set on leading a team in the near future, eager to guide and cultivate a collaborative, innovative atmosphere.
 <!-- Color Palette:
   875cff: Purple-ish Blue
   f7e13a: Yellow
