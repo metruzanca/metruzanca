@@ -56,8 +56,6 @@ _For side projects, my go-to stack has been: [Solid-Start](https://start.solidjs
 - [Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/)
 - [Agile](https://agilemanifesto.org/)
 
-Other nice [philosophies](https://zanca.dev/philosophies).
-
 <br>
 
 
