@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+blog_dir="blog"
+
+# Get filename from command line args
+filename="$1"
+
+if [ -z "$filename" ]; then
+  echo "Usage: scripts/new <filename>" >&2
+  echo "Example: scripts/new my-new-post" >&2
+  exit 1
+fi
+
+# Ensure filename ends with .md
+if [[ "$filename" != *.md ]]; then
+  markdown_filename="${filename}.md"
+else
+  markdown_filename="$filename"
+fi
+
+file_path="${blog_dir}/${markdown_filename}"
+
+# Check if file already exists
+if [ -f "$file_path" ]; then
+  echo "Error: File ${markdown_filename} already exists in blog/" >&2
+  exit 1
+fi
+
+# Generate frontmatter with empty defaults
+frontmatter="---
+title: 
+description: 
+timestamp: 
+publish: false
+tags: []
+canonical_url: 
+---
+"
+
+# Write the file
+echo "$frontmatter" > "$file_path"
+
+echo "Created new blog post: blog/${markdown_filename}"
