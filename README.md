@@ -1,6 +1,6 @@
 <!-- This page is the same as https://github.com/metruzanca/metruzanca -->
 
-# Sam <img width="20px" style="margin-bottom:-0px" src="https://zanca.dev/static/icon.png"/>anca
+# Sam Zanca
 
 Hey there, I’m Sam, a seasoned Full-Stack Developer driven by a passion for creating user-friendly digital experiences. Since I tinkered with my first line of code in high school, I’ve been all about keeping things simple in software. I love making the web more accessible and flexible, shaping both smooth User Experiences and hassle-free Developer Experiences.
 
