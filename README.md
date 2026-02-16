@@ -75,6 +75,20 @@ I'm an avid user of all 3 main operating systems. Theres no best OS, they all ha
 ### ✒️ Blog
 I’ve been wanting to write more blog posts about what I’m learning. Its 2024, its time to get writing! [Recent Posts](https://zanca.dev/blog/)
 
+
+### 🛠️ Projects Shipped
+
+<!--- [Hytale mods](https://github.com/metruzanca/hytale-modding-wsl-experiments)-->
+<!--- [ssg](https://github.com/metruzanca/ssg) My personal ssg to generated blogs from markdown, inspired by [Quartz](https://quartz.jzhao.xyz/).-->
+<!--- [schedario](https://github.com/metruzanca/schedario) My personal Zettelkasten-based note taking app.-->
+- [Email AI Skills](https://github.com/metruzanca/proton-bridge-opencode-config) a repo of tools to let your AI use IMAP/SMTP to organize your emails.
+- [MCP Fullstack debugger](https://github.com/metruzanca/mcp-debugger) a log aggregator for debugging fullstack apps, just like cursor debug mode.
+<!--- [Elo](https://github.com/metruzanca/elo) tracker for private competitive groups.-->
+- [Background Jobs](https://github.com/metruzanca/bj) a simple process manager with a quirky personality
+- [PWA-web-share-demo](https://github.com/metruzanca/web-share-relay) sharing images/links to a PWA like a mobile app.
+- [minigolf](https://github.com/metruzanca/minigolf) score tracker for families of any size. Anonymous, realtime.
+- [Caffeinator](https://github.com/metruzanca/coffee-break) Goal tracking in a discord bot
+
 ---
 
 ### 🎧 Music
