@@ -16,7 +16,7 @@ I try to keep things simple, ship stuff that works, and help the people around m
 <br>
   
 <div align="center">
-  <!--I don't like the stats on this card atm-->
-  <!--<a href="https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#github-stats-card"><img height="190" align="center" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=metruzanca&show_icons=true&custom_title=GitHub+Statistics&title_color=cba6f7&theme=catppuccin_mocha&border_color=45475a"/></a>-->
-  <img align="center" src="https://badbenches.com/bench/github/metruzanca.svg?theme=default"/>
+  <a href="https://badbenches.com">
+    <img align="center" src="https://badbenches.com/bench/github/metruzanca.svg?theme=default"/>
+  </a>
 </div>
