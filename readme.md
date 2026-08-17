@@ -18,5 +18,5 @@ I try to keep things simple, ship stuff that works, and help the people around m
 <div align="center">
   <!--I don't like the stats on this card atm-->
   <!--<a href="https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#github-stats-card"><img height="190" align="center" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=metruzanca&show_icons=true&custom_title=GitHub+Statistics&title_color=cba6f7&theme=catppuccin_mocha&border_color=45475a"/></a>-->
-  <a href="https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#top-languages-card"><img width="345" align="center" alt="Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=metruzanca&layout=compact&title_color=cba6f7&theme=catppuccin_mocha&border_color=45475a&size_weight=0.5&count_weight=0.5"/></a>
+  <img align="center" src="https://badbenches.com/bench/github/metruzanca.svg?theme=default"/>
 </div>
