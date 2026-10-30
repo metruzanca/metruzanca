@@ -13,6 +13,10 @@ but lately I've been chasing <b>performance</b> by diving into <b>Go</b> for ter
 I try to keep things simple, ship stuff that works, and help the people around me level up too.
 </p>
 
+<p align="center">
+I'm building <b><a href="https://github.com/metruzanca/gothic">Gothic</a></b>, a full-stack web framework for Go.
+</p>
+
 <br>
   
 <div align="center">
