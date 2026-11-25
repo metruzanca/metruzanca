@@ -20,7 +20,7 @@ I'm building <b><a href="https://github.com/metruzanca/gothic">Gothic</a></b>, a
 <br>
   
 <div align="center">
-  <a href="https://badbenches.com">
-    <img align="center" src="https://badbenches.com/bench/github/metruzanca.svg?theme=default"/>
-  </a>
+
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=metruzanca&layout=compact&langs_count=4&theme=dark_github)](https://github-stats-extended.vercel.app/api/top-langs?username=metruzanca&layout=compact&langs_count=4&theme=dark_github)
+
 </div>
